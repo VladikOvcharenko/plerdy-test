@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plerdy test-task</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@400;500;700;900&family=Source+Sans+3:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.1/build/css/intlTelInput.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container flex">
+        <a href="#" class="header__logo">
+          <svg
+            width="140"
+            height="34"
+            viewBox="0 0 140 34"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 16.417V24.6581C0 26.1514 1.21868 27.3621 2.7226 27.3621H10.0699V12.7524L0 16.417Z"
+              fill="url(#paint0_linear_1_725)"
+            />
+            <path
+              d="M10.49 12.7524L14.0867 18.1156V27.3618L10.49 22.456V12.7524Z"
+              fill="url(#paint1_linear_1_725)"
+            />
+            <path
+              d="M14.507 10.3784V27.3617H24.582L24.5769 6.71387L14.507 10.3784Z"
+              fill="url(#paint2_linear_1_725)"
+            />
+            <path
+              d="M24.9966 6.71387L29.0916 13.7755V27.3621L24.9988 20.0978L24.9966 6.71387Z"
+              fill="url(#paint3_linear_1_725)"
+            />
+            <path
+              d="M29.5115 4.15142V27.3619H38.1889C39.6924 27.3619 40.9111 26.1515 40.9111 24.6578V0L29.5115 4.15142Z"
+              fill="url(#paint4_linear_1_725)"
+            />
+            <path
+              d="M50.0157 7.41992H59.721C61.9264 7.41992 63.6912 8.03326 64.9851 9.28911C66.3084 10.5158 66.9553 12.1517 66.9553 14.167C66.9553 16.241 66.2789 17.8765 64.9258 19.1324C63.603 20.3882 61.7794 21.0016 59.5147 21.0016H54.8676V27.3234H50.0157V7.41992ZM54.8681 16.9711H59.1622C61.0442 16.9711 62.1911 15.8905 62.1911 14.2254C62.1911 12.619 61.0148 11.5384 59.1622 11.5384H54.8681V16.9711Z"
+              fill="url(#paint5_linear_1_725)"
+            />
+            <path
+              d="M73.2008 4.49902V21.9956C73.2008 22.7841 73.7595 23.2806 74.6123 23.2806C74.9651 23.2806 75.5238 23.1346 76.3183 22.8717L77.0534 26.5224C75.7889 27.1362 74.6421 27.4278 73.5831 27.4278C70.5248 27.4278 68.4954 25.3834 68.4954 22.3455V4.49902H73.2008Z"
+              fill="url(#paint6_linear_1_725)"
+            />
+            <path
+              d="M92.0633 20.8562H81.2409C81.6232 22.609 82.8588 23.6896 84.4173 23.6896C85.888 23.6896 86.9466 23.1342 87.5642 21.9952L91.7402 22.8421C90.4753 25.88 87.8582 27.4275 84.4168 27.4275C82.2404 27.4275 80.3877 26.6974 78.8881 25.2662C77.3883 23.8059 76.6234 21.9364 76.6234 19.6583C76.6234 17.4091 77.388 15.5398 78.8881 14.0791C80.3877 12.6188 82.2404 11.8887 84.4462 11.8887C86.593 11.8887 88.3871 12.5896 89.8284 14.0211C91.2698 15.4522 92.0338 17.3219 92.0633 19.6583V20.8562ZM81.3292 17.9935H87.4171C86.9756 16.4748 85.8582 15.6862 84.4467 15.6862C83.0641 15.6862 81.7703 16.5625 81.3292 17.9935Z"
+              fill="url(#paint7_linear_1_725)"
+            />
+            <path
+              d="M104.515 12.2397L104.309 16.913H103.456C100.074 16.913 98.3685 18.753 98.3685 22.4043V27.3534H93.6631V11.8809H98.3685V15.1315C99.5742 13.1158 101.28 12.1229 103.456 12.1229C103.838 12.1229 104.191 12.152 104.515 12.2397Z"
+              fill="url(#paint8_linear_1_725)"
+            />
+            <path
+              d="M121.416 4.49902V26.9902H116.71V25.7339C115.533 26.8725 114.005 27.4278 112.122 27.4278C110.122 27.4278 108.416 26.6976 107.005 25.2666C105.622 23.8063 104.916 21.9367 104.916 19.6587C104.916 17.4093 105.622 15.5402 107.005 14.0794C108.416 12.6191 110.122 11.889 112.122 11.889C114.004 11.889 115.533 12.4439 116.71 13.5834V4.49902H121.416ZM115.621 22.4044C116.357 21.6743 116.71 20.7689 116.71 19.6587C116.71 18.578 116.357 17.6722 115.621 16.9421C114.916 16.2119 114.063 15.8615 113.092 15.8615C111.004 15.8615 109.533 17.4386 109.533 19.6587C109.533 21.9079 111.004 23.4562 113.092 23.4562C114.063 23.4562 114.916 23.1053 115.621 22.4044Z"
+              fill="url(#paint9_linear_1_725)"
+            />
+            <path
+              d="M140 11.8911L130.425 34.0001H125.338L128.602 26.4937L122.303 11.8911H127.362L131.042 20.8858L134.941 11.8911H140Z"
+              fill="url(#paint10_linear_1_725)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_1_725"
+                x1="-6.21574e-08"
+                y1="-0.000107761"
+                x2="43.9505"
+                y2="6.36026"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#2D8DFE" />
+                <stop offset="1" stop-color="#0E77F1" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_1_725"
+                x1="1.37912e-05"
+                y1="-0.000108734"
+                x2="43.9505"
+                y2="6.36026"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#2D8DFE" />
+                <stop offset="1" stop-color="#0E77F1" />
+              </linearGradient>
+              <linearGradient
+                id="paint2_linear_1_725"
+                x1="-9.10046e-06"
+                y1="-0.000172869"
+                x2="43.9504"
+                y2="6.3602"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#2D8DFE" />
+                <stop offset="1" stop-color="#0E77F1" />
+              </linearGradient>
+              <linearGradient
+                id="paint3_linear_1_725"
+                x1="-7.66835e-06"
+                y1="0.000239651"
+                x2="43.9505"
+                y2="6.36061"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#2D8DFE" />
+                <stop offset="1" stop-color="#0E77F1" />
+              </linearGradient>
+              <linearGradient
+                id="paint4_linear_1_725"
+                x1="7.81514e-06"
+                y1="7.92918e-07"
+                x2="43.9505"
+                y2="6.36037"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#2D8DFE" />
+                <stop offset="1" stop-color="#0E77F1" />
+              </linearGradient>
+              <linearGradient
+                id="paint5_linear_1_725"
+                x1="140"
+                y1="19.2494"
+                x2="50.0157"
+                y2="19.2495"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#141414" />
+                <stop offset="0.484375" stop-color="#2B3C50" />
+                <stop offset="1" stop-color="#141414" />
+              </linearGradient>
+              <linearGradient
+                id="paint6_linear_1_725"
+                x1="140"
+                y1="19.2495"
+                x2="50.0157"
+                y2="19.2496"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#141414" />
+                <stop offset="0.484375" stop-color="#2B3C50" />
+                <stop offset="1" stop-color="#141414" />
+              </linearGradient>
+              <linearGradient
+                id="paint7_linear_1_725"
+                x1="140"
+                y1="19.2496"
+                x2="50.0157"
+                y2="19.2497"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#141414" />
+                <stop offset="0.484375" stop-color="#2B3C50" />
+                <stop offset="1" stop-color="#141414" />
+              </linearGradient>
+              <linearGradient
+                id="paint8_linear_1_725"
+                x1="140"
+                y1="19.2497"
+                x2="50.0157"
+                y2="19.2498"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#141414" />
+                <stop offset="0.484375" stop-color="#2B3C50" />
+                <stop offset="1" stop-color="#141414" />
+              </linearGradient>
+              <linearGradient
+                id="paint9_linear_1_725"
+                x1="140"
+                y1="19.2495"
+                x2="50.0158"
+                y2="19.2496"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#141414" />
+                <stop offset="0.484375" stop-color="#2B3C50" />
+                <stop offset="1" stop-color="#141414" />
+              </linearGradient>
+              <linearGradient
+                id="paint10_linear_1_725"
+                x1="140"
+                y1="19.2495"
+                x2="50.0157"
+                y2="19.2496"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#141414" />
+                <stop offset="0.484375" stop-color="#2B3C50" />
+                <stop offset="1" stop-color="#141414" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </a>
+        <div class="header__menu flex">
+          <nav class="header__nav">
+            <ul class="header__list list-reset flex">
+              <li class="header__list-item">
+                <a href="#" class="header__list-link">Pricing</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#" class="header__list-link">Use Cases</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#" class="header__list-link">Book a Demo</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__auth flex">
+            <button class="header__auth-sing-in btn-reset">Sing in</button>
+            <button class="header__auth-contact btn-reset btn" data-popup="">
+              Contact sales
+            </button>
+          </div>
+        </div>
+        <div class="header__menu-btn">
+          <button class="burger">
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__wrapper">
+            <div class="hero__info">
+              <h1 class="hero__title text">
+                How to do a Website Audit to Improve SEO & Conversions
+              </h1>
+              <p class="hero__text text">
+                Usability auditing with the Plerdy tool is a comprehensive
+                expert assessment of your website based on a profound study of
+                user behavior registered on it. Plerdy will provide you with
+                crucial data based on which you will be able to run an efficient
+                usability audit of your website, identify and fix SEO issues,
+                and subsequently lead it to higher positions in search.
+                <span
+                  >Thus, you'll compile a list of flaws in your website
+                  interface, navigation, and conversion path that can eventually
+                  affect its micro and macro conversion rates.</span
+                >
+              </p>
+              <a href="#" class="hero__link btn" data-popup=""
+                >Run the Plerdy tool</a
+              >
+              <span class="hero__trusted text"
+                >Trusted by some of the world's largest enterprises</span
+              >
+              <ul class="hero__list list-reset">
+                <li class="hero__list-item flex">
+                  <img
+                    src="img/company_logo-1.png"
+                    alt="Trust to Plerdy - soft server"
+                    loading="lazy"
+                    width="108"
+                    height="20"
+                  />
+                </li>
+                <li class="hero__list-item flex">
+                  <img
+                    src="img/company_logo-2.png"
+                    alt="Trust to Plerdy - subaru"
+                    loading="lazy"
+                    width="125"
+                    height="18"
+                  />
+                </li>
+                <li class="hero__list-item flex">
+                  <img
+                    src="img/company_logo-3.png"
+                    alt="Trust to Plerdy - anextour"
+                    loading="lazy"
+                    width="101"
+                    height="17"
+                  />
+                </li>
+                <li class="hero__list-item flex">
+                  <img
+                    src="img/company_logo-4.png"
+                    alt="Trust to Plerdy - prom ua"
+                    loading="lazy"
+                    width="81"
+                    height="22"
+                  />
+                </li>
+                <li class="hero__list-item flex">
+                  <img
+                    src="img/company_logo-5.png"
+                    alt="Trust to Plerdy - ukr poshta"
+                    loading="lazy"
+                    width="120"
+                    height="28"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="hero__img">
+              <img src="img/hero_bg.jpg" class="hero__img-main" alt="" />
+              <img
+                src="img/hero_decor-1.jpg"
+                class="hero__img-decor"
+                alt=""
+                width="190"
+                height="151"
+                data-aos="fade-up-left"
+                data-aos-delay="400"
+              />
+              <img
+                src="img/hero_decor-2.jpg"
+                class="hero__img-decor"
+                alt=""
+                width="165"
+                height="90"
+                data-aos="fade-left"
+                data-aos-delay="550"
+              />
+              <img
+                src="img/hero_decor-3.jpg"
+                class="hero__img-decor"
+                alt=""
+                width="156"
+                height="81"
+                data-aos="fade-up-right"
+                data-aos-delay="700"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reasons">
+        <div class="reasons__container container">
+          <h2 class="reasons__title text">
+            6 Reasons
+            <span>to Use Plerdy Data for a Website Usability Audit</span>
+          </h2>
+
+          <div class="reasons__slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="reasons__item">
+                  <p class="reasons__item-title text">
+                    You will benefit from our SaaS marketing product
+                  </p>
+                  <p class="reasons__item-text text">
+                    Our team has developed a powerful tool to audit website
+                    content – a heatmap that features more than 100 reports for
+                    e-marketers and business owners.
+                  </p>
+                  <span class="reasons__item-decor">1</span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reasons__item">
+                  <p class="reasons__item-title text">
+                    We have 10+ years of experience in digital marketing
+                  </p>
+                  <p class="reasons__item-text text">
+                    The Plerdy team has rich experience in auditing, analyzing,
+                    and improving eCommerce websites to boost their conversion
+                    rates. So we are well aware of all the weak spots of
+                    eCommerce websites and know what data you need to run a
+                    usability audit of your website.
+                  </p>
+                  <span class="reasons__item-decor">2</span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reasons__item">
+                  <p class="reasons__item-title text">
+                    We enable generating hypotheses about what leads to low
+                    website conversions
+                  </p>
+                  <p class="reasons__item-text text">
+                    Thanks to the data gathered with the Plerdy heatmap about
+                    your website visitors’ behavior, you can generate hypotheses
+                    that potentially explain which functional flaws and problems
+                    are causing a low conversion on your website and how.
+                  </p>
+                  <span class="reasons__item-decor">3</span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reasons__item">
+                  <p class="reasons__item-title text">
+                    The analysis of the dynamic elements of the website
+                  </p>
+                  <p class="reasons__item-text text">
+                    Some services disregard such an important aspect as the
+                    clickability analysis of the dynamic elements when UX
+                    auditing, including drop-down menu, pop-up, and slider.
+                    However, thanks to the unique Plerdy auditing functionality,
+                    you will receive this information.
+                  </p>
+                  <span class="reasons__item-decor">4</span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reasons__item">
+                  <p class="reasons__item-title text">
+                    The analysis of both the desktop and mobile versions of the
+                    website
+                  </p>
+                  <p class="reasons__item-text text">
+                    In some areas, websites generate more than 60% of the
+                    traffic from their mobile versions, so it would be unwise
+                    not to audit the behavior of mobile users. With the Plerdy
+                    heatmap, you can run a UX auditing analysis separately for
+                    the desktop and mobile versions of your website.
+                  </p>
+                  <span class="reasons__item-decor">5</span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reasons__item">
+                  <p class="reasons__item-title text">
+                    The analysis of both the desktop and mobile versions of the
+                    website
+                  </p>
+                  <p class="reasons__item-text text">
+                    In some areas, websites generate more than 60% of the
+                    traffic from their mobile versions, so it would be unwise
+                    not to audit the behavior of mobile users. With the Plerdy
+                    heatmap, you can run a UX auditing analysis separately for
+                    the desktop and mobile versions of your website.
+                  </p>
+                  <span class="reasons__item-decor">6</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reasons__slider-btn reasons__slider-btn-prev flex">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.99999 0.333414L7.87499 1.22925L2.72916 6.37508L13.6667 6.37508L13.6667 7.62508L2.72916 7.62508L7.87499 12.7709L6.99999 13.6667L0.333324 7.00008L6.99999 0.333414Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <div class="reasons__slider-btn reasons__slider-btn-next flex">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.00001 13.6666L6.12501 12.7708L11.2708 7.62492H0.333344V6.37492H11.2708L6.12501 1.22909L7.00001 0.333252L13.6667 6.99992L7.00001 13.6666Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <div class="reasons__pagination">
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="reasons__wrapper">
+            <a class="reasons__link btn" data-popup=""
+              >Boost my website conversion</a
+            >
+            <p class="reasons__text text">
+              So, it’s high time for you to stop losing 99% of potential clients
+              due to being unaware of your website users’ behavior patterns and
+              needs.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="pop-up flex" id="pop-up">
+        <div class="pop-up__wrapper flex">
+          <img
+            src="img/pop-up_bg.jpg"
+            alt=""
+            class="pop-up__img"
+            width="400"
+            height="550"
+          />
+          <div class="pop-up__box flex">
+            <h2 class="pop-up__title text">
+              How to do a Website Audit to Improve SEO & Conversions
+            </h2>
+            <span class="pop-up__text text"
+              >You will get an SMS with a link to the webinar</span
+            >
+            <form class="pop-up__form">
+              <div class="pop-up__form-item">
+                <label for="">Name</label>
+                <input
+                  id="name"
+                  type="text"
+                  name="name"
+                  placeholder="Boris Johnson"
+                  data-validate-field="name"
+                />
+              </div>
+              <div class="pop-up__form-item">
+                <label for="">Label</label>
+                <input
+                  id="phone"
+                  type="tel"
+                  name="phone"
+                  placeholder="XX XXX XXXX"
+                  pattern="\d{0,9}"
+                  maxlength="9"
+                  data-validate-field="phone"
+                />
+              </div>
+              <div class="pop-up__form-wrapper flex">
+                <a href="#" class="pop-up__form-btn btn-reset btn">Support</a>
+                <button class="pop-up__form-btn btn-reset btn" type="submit">
+                  Contact sales
+                </button>
+              </div>
+              <label class="pop-up__form-police flex">
+                <input type="checkbox" class="pop-up__form-check" id="check" />
+                <span class="pop-up__form-check-box"></span>
+                <span class="pop-up__form-text text"
+                  >By sending up? you agree to our
+                  <a href="" class="pop-up__form-link text">Conditions</a> and
+                  <a href="" class="pop-up__form-link text"
+                    >Privacy Policy</a
+                  ></span
+                >
+              </label>
+              <div class="pop-up__form-logo flex">
+                <svg
+                  width="30"
+                  height="20"
+                  viewBox="0 0 30 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 11.5684V17.3755C0 18.4277 0.878904 19.2809 1.96353 19.2809H7.2624V8.98608L0 11.5684Z"
+                    fill="url(#paint0_linear_1_2162)"
+                  />
+                  <path
+                    d="M7.56519 8.98608L10.1592 12.7653V19.2807L7.56519 15.8238V8.98608Z"
+                    fill="url(#paint1_linear_1_2162)"
+                  />
+                  <path
+                    d="M10.4626 7.31344V19.2809H17.7287L17.725 4.7312L10.4626 7.31344Z"
+                    fill="url(#paint2_linear_1_2162)"
+                  />
+                  <path
+                    d="M18.0273 4.73071L20.9806 9.70672V19.2807L18.0289 14.1618L18.0273 4.73071Z"
+                    fill="url(#paint3_linear_1_2162)"
+                  />
+                  <path
+                    d="M21.2837 2.92533V19.2808H27.5418C28.6261 19.2808 29.505 18.4278 29.505 17.3753V0L21.2837 2.92533Z"
+                    fill="url(#paint4_linear_1_2162)"
+                  />
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_1_2162"
+                      x1="-4.48276e-08"
+                      y1="-0.00010333"
+                      x2="31.666"
+                      y2="4.69006"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#2D8DFE" />
+                      <stop offset="1" stop-color="#0E77F1" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear_1_2162"
+                      x1="-0.000142672"
+                      y1="-0.000104165"
+                      x2="31.6659"
+                      y2="4.69006"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#2D8DFE" />
+                      <stop offset="1" stop-color="#0E77F1" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint2_linear_1_2162"
+                      x1="0.000279681"
+                      y1="9.87873e-05"
+                      x2="31.6663"
+                      y2="4.69026"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#2D8DFE" />
+                      <stop offset="1" stop-color="#0E77F1" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint3_linear_1_2162"
+                      x1="-0.000133914"
+                      y1="-9.87373e-05"
+                      x2="31.6659"
+                      y2="4.69006"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#2D8DFE" />
+                      <stop offset="1" stop-color="#0E77F1" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint4_linear_1_2162"
+                      x1="9.92209e-05"
+                      y1="5.58736e-07"
+                      x2="31.6661"
+                      y2="4.69016"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#2D8DFE" />
+                      <stop offset="1" stop-color="#0E77F1" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <span>Powered by <a href="">Plerdy</a> </span>
+              </div>
+            </form>
+          </div>
+          <div class="pop-up__close flex">
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.1875 11.6875L0.3125 10.8125L5.125 6L0.3125 1.1875L1.1875 0.3125L6 5.125L10.8125 0.3125L11.6875 1.1875L6.875 6L11.6875 10.8125L10.8125 11.6875L6 6.875L1.1875 11.6875Z"
+                fill="#001E41"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.1/build/js/intlTelInput.min.js"></script>
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/validation.js"></script>
+</html>
